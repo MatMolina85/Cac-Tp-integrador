@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Servicios MoJuri</title>
+</head>
+    <body class="bg-secondary">
+            <!-- header -->
+            <div class="navbar navbar-expand-md navegador fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="./imagenes/mj-logo-combination-design-suitable-260nw-2004535817.webp" width="40" height="40" alt="Logo">
+                    <span class="logo-inicial ">Servicios MoJuri</span>
+                    </a>
+                    <!-- boton menu -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <!-- menu collapse -->
+                      <div class="collapse navbar-collapse " id="menu">
+                        <ul class="navbar-nav ms-auto logo-inicial ">
+                            <li class="nav-item"><a class="nav-link active" href="#">Quienes Somos</a></li>
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="carouselExampleCaptions" id="navbarDropdown" role="button" data-bs-toggle="dropdown" href="#">Servicios</a>
+
+                            <!-- menu collapse de servicios     -->
+                            <ul class="dropdown-menu bg-secondary ">
+                                <li><a class="dropdown-item" href="#">Electricidad</a></li>
+                                <li><a class="dropdown-item" href="#">Energias Renovables</a></li>
+                                <li><a class="dropdown-item" href="#">Sanitarismo</a></li>
+                                <li><a class="dropdown-item" href="#">Revestimiento</a></li>
+                            </ul></li>
+                            <li class="nav-item"><a href="#SecOpinion" class="nav-link" href="#">Opiniones</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#SecContact">Consultas</a></li>
+                        </ul>
+                        <hr class="text-white-50">
+                        <!-- menu redes sociales -->
+                        <ul class="navbar-nav flex-row flex-wrap text-dark">
+                            <li class="nav-item col-6 col-md-auto p-3">
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                                <small class="d-md-none ms-2">Twitter</small>
+                            </li>
+                            <li class="nav-item col-6 col-md-auto p-3">
+                                <a href="#"><i class="bi bi-instagram"></i></a>
+                                <small class="d-md-none ms-2">Instagram</small>
+                            </li>
+                            <li class="nav-item col-6 col-md-auto p-3">
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <small class="d-md-none ms-2">Facebool</small>
+                            </li>
+                            <li class="nav-item col-6 col-md-auto p-3">
+                                <a href="#"><i class="bi bi-whatsapp"></i></a>
+                                <small class="d-md-none ms-2">Whatsapp</small>
+                            </li>
+                        </ul>
+                      </div>
+
+                </div>
+            </div>
+
+            <!-- main carrusel -->
+
+            <section class="home">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./imagenes/electricista-prueba-corriente-electrica-panel-control_34936-2970.avif" class="d-block w-100" alt="Electricidad">
+                    <div class="carousel-caption d-none d-md-block text-dark">
+                      <h5>Electricidad</h5>
+                      <p>Realizamos los trabajos con la mayores normas de seguridad</p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="./imagenes/paneles-solares-ilustracion-3d-techo-casa_147644-453.avif" class="d-block w-100" alt="Energias Renovables">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Energias Renovables</h5>
+                      <p>Instalaciones termosolares y fotovoltaicas</p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="./imagenes/fontanero-que-fija-tubo-fregadero-blanco-llave-ajustable_34936-1945.avif" class="d-block w-100" alt="Plomeria">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Sanitarista</h5>
+                      <p>Instalacion y reparaciones de todo sistema domiciliario</p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="./imagenes/colocacion-azulejos-ceramica_191163-306.avif" class="d-block w-100" alt="Revestimiento">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Revestimiento</h5>
+                      <p>Colocacion de ceramicos y porcelanatos</p>
+                    </div>
+                  </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </section>
+
+
+            <!-- titulo de cartas . opiniones  -->
+            <section class="row d-flex justify-content-around text-center border-top border-3 mb-5" id="SecOpinion">
+    <div class="container">
+        <h2 class="col-12 display-4 text-capitalize mb-3 pb-5 text-center titulo">Opiniones de Clientes</h2>
+    </div>
+    <!-- tarjetas -->
+
+    <article class=" col-10 col-md-3 col-lg-3 bg-white rounded shadow p-3 fv-light">
+        <img src="./imagenes/cliente1.avif"
+        alt="Cliente"
+        class=" rounded-circle mb-3 icon-cliente">
+
+        <h3 class="text-capitalize">
+            Raul de Balvanera
+        </h3>
+        <p class="text-muted"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint fuga dolor hic ut necessitatibus. Corrupti ut, illo quisquam maxime voluptas incidunt saepe vero ad odit optio culpa expedita deserunt? Ut!</p>
+
+        <a href="#" class="btn btn-outline-danger"> Siguiente</a>
+    </article>
+
+    <article class=" col-10 col-md-3 col-lg-3 bg-white rounded shadow p-3 fv-light">
+        <img src="./imagenes/cliente3.avif"
+        alt="Cliente"
+        class="  rounded-circle mb-3 icon-cliente">
+
+        <h3 class="text-capitalize">
+            Vanesa de Pilar
+        </h3>
+        <p class="text-muted"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint fuga dolor hic ut necessitatibus. Corrupti ut, illo quisquam maxime voluptas incidunt saepe vero ad odit optio culpa expedita deserunt? Ut!</p>
+
+        <a href="#" class="btn btn-outline-danger"> Siguiente</a>
+    </article>
+
+    <article class=" col-10 col-md-3 col-lg-3 bg-white rounded shadow p-3 fv-light">
+        <img src="./imagenes/cliente2.avif  "
+        alt="Cliente"
+        class=" rounded-circle mb-3 icon-cliente">
+
+        <h3 class="text-capitalize">
+            Mariano de Almagro
+        </h3>
+        <p class="text-muted"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint fuga dolor hic ut necessitatibus. Corrupti ut, illo quisquam maxime voluptas incidunt saepe vero ad odit optio culpa expedita deserunt? Ut!</p>
+
+        <a href="#" class="btn btn-outline-danger"> Siguiente</a>
+    </article>
+</section>
+
+<!-- formulario -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="contenedorcentrado">
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="signupFrm d-flex justify-content-around " >
+                    <form action="Formulario" class="form " id="SecContact">
+                      <h1 class="title">Consultas</h1>
+
+                      <div class="inputContainer ">
+                        <input type="text" class="input" placeholder="a">
+                        <label for="" class="label">Nombre</label>
+                      </div>
+
+                      <div class="inputContainer">
+                        <input type="text" class="input" placeholder="a">
+                        <label for="" class="label">Mail</label>
+                      </div>
+
+                      <div class="inputContainer">
+                        <input type="text" class="input" placeholder="a">
+                        <label for="" class="label">Celular</label>
+                      </div>
+
+                      <div class="inputContainer">
+                        <input type="text" class="input" placeholder="a">
+                        <label for="" class="label">Localidad</label>
+                      </div>
+
+                      <input type="submit" class="submitBtn" value="Confirmar">
+                    </form>
+                  </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-none">
+              <div class="container col-sm-none">
+
+                    <h2 class="text-center fs-1 mb-5 p-4">
+                      Dejanos tu mensaje
+                    </h2>
+                    <p class="text-center">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, modi! Possimus nesciunt veritatis ad natus maiores dignissimos facilis id! Repellat libero quibusdam voluptatibus vero repellendus aliquid molestiae officiis nesciunt nemo.
+                      Natus, nobis voluptate nostrum, dolores error pariatur culpa non ipsum quasi iste molestias repellendus. Asperiores quis autem architecto temporibus, animi, minus cum exercitationem inventore commodi debitis explicabo, eaque quos consectetur!
+                    </p>
+
+                  </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="container-fluid ">
+      <div class="row p-3 pie text-dark">
+        <div class="col-sm-6 col-md-6 col-lg-6 col-6">
+          <p class="h3"> Servicios Molina-Juri</p>
+          <img class="w-50" src="./imagenes/mj-logo-combination-design-suitable-260nw-2004535817.webp" alt="Logo">
+        </div>
+
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-6 opciones justify-content-around">
+          <div class="mb-4">
+          <a href="#" class="h5 text-decoration-none text-right">Quienes Somos</a>
+        </div>
+          <div class="mb-4">
+          <a href="#" class="h5 text-decoration-none text-right">Direccion</a>
+        </div>
+          <div class="mb-4">
+          <a href="#" class="h5 text-decoration-none text-right ">Telefono/Whatsapp</a>
+        </div>
+          <div class="mb-4">
+          <a href="#" class="h5 text-decoration-none text-right">Mail</a>
+        </div>
+
+      </div>
+
+      <div class="col-xs-12 pt-4">
+    <p class="text-white text-center"> Copyright. Todos los derechos reservados 2023</p>
+      </div>
+    </div>
+  </div>
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+      </body>
+</html>
